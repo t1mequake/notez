@@ -1,0 +1,11 @@
+install webmin:
+http://www.hooplahosting.com/client/knowledgebase/87/Install-Webmin-on-CentOS-or-Redhat-using-yum.html
+
+install nginx mariadb php-fpm
+http://drewsymo.com/2013/11/pinch-nginx-php-fpm-apc-mariadb-centos-install-script/
+
+https://sherbers.de/howto/nginx/
+
+http://www.pcwelt.de/ratgeber/Nginx___So_klappt_der_unsinkbare_Webserver-Linux-Server-8005285.html
+
+http://www.howtoforge.com/running-owncloud-5.0-on-nginx-lemp-on-debian-wheezy
