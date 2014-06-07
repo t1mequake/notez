@@ -1,1 +1,9 @@
 yum install -y htop ninvaders ccal clex ettercap glances lnav
+
+http://www.hooplahosting.com/client/knowledgebase/87/Install-Webmin-on-CentOS-or-Redhat-using-yum.html
+
+http://drewsymo.com/2013/11/pinch-nginx-php-fpm-apc-mariadb-centos-install-script/
+
+$ yum install -y git
+$ git clone git://github.com/drewsymo/Pinch.git
+$ cd Pinch/vanilla-lemp && bash install.sh
