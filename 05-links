@@ -1,0 +1,6 @@
+install webmin:
+http://www.hooplahosting.com/client/knowledgebase/87/Install-Webmin-on-CentOS-or-Redhat-using-yum.html
+
+install nginx mariadb php-fpm
+http://drewsymo.com/2013/11/pinch-nginx-php-fpm-apc-mariadb-centos-install-script/
+
