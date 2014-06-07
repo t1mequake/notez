@@ -4,6 +4,9 @@ http://www.pcwelt.de/ratgeber/Nginx___So_klappt_der_unsinkbare_Webserver-Linux-S
 
 http://www.howtoforge.com/running-owncloud-5.0-on-nginx-lemp-on-debian-wheezy
 
+--
+
+openssl dhparam -outform PEM -out dhparam4096.pem 4096
 
 
 --
