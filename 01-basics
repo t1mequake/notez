@@ -1,0 +1,3 @@
+yum install -y zsh screen
+wget -O /etc/zshrc http://git.grml.org/f/grml-etc-core/etc/zsh/zshrc
+wget -O /etc/screenrc http://michael-prokop.at/computer/config/.screenrc
