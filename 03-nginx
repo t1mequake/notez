@@ -1,5 +1,11 @@
 https://sherbers.de/howto/nginx/
 
+http://www.pcwelt.de/ratgeber/Nginx___So_klappt_der_unsinkbare_Webserver-Linux-Server-8005285.html
+
+http://www.howtoforge.com/running-owncloud-5.0-on-nginx-lemp-on-debian-wheezy
+
+
+
 --
 
 server {
