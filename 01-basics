@@ -1,4 +1,10 @@
 yum upgrade -y
-yum install -y zsh screen wget links vim man mc unzip
+yum install -y git zsh screen wget links vim man mc unzip
 wget -O /etc/zshrc http://git.grml.org/f/grml-etc-core/etc/zsh/zshrc
 wget -O /etc/screenrc http://michael-prokop.at/computer/config/.screenrc
+chsh -s /bin/zsh
+
+yum install -y htop ninvaders ccal clex ettercap glances lnav
+
+git clone git://github.com/drewsymo/Pinch.git
+cd Pinch/vanilla-lemp && bash install.sh
