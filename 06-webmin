@@ -1,0 +1,19 @@
+Install Webmin on CentOS or Redhat using yum
+
+Installing Webmin on CentOS or Redhat is extremely easy using yum. Yum also allows you to keep Webmin update to date extremely easy (yum update)
+
+Enter "nano /etc/yum.repos.d/webmin.repo"
+Paste the following text
+[Webmin]
+name=Webmin Distribution Neutral
+#baseurl=http://download.webmin.com/download/yum
+mirrorlist=http://download.webmin.com/download/yum/mirrorlist
+enabled=1
+
+CTRL+O to save then CTRL+X to exit.
+Install the GPG key.
+"wget http://www.webmin.com/jcameron-key.asc"
+"rpm --import jcameron-key.asc"
+
+Enter "yum install webmin"
+Once Webmin has finished installing you should be load the following address in your browser. http://youripaddress:10000
