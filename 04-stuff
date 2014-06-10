@@ -1,8 +1,3 @@
-yum install -y htop ninvaders ccal clex ettercap glances lnav
-yum install -y git
-git clone git://github.com/drewsymo/Pinch.git
-cd Pinch/vanilla-lemp && bash install.sh
-
 wget http://downloads.sourceforge.net/adminer/adminer-4.1.0-mysql.php
 wget http://downloads.sourceforge.net/adminer/editor-4.1.0-mysql.php
 wget https://raw.github.com/vrana/adminer/master/plugins/plugin.php
